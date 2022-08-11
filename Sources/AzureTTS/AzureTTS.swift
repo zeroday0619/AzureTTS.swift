@@ -1,6 +1,5 @@
-public struct AzureTTS_swift {
-    public private(set) var text = "Hello, World!"
-
+public struct AzureTTS {
+    public private(set) var text = getAccessToken()
     public init() {
     }
 }

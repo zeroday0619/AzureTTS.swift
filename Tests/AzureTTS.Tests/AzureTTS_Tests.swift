@@ -1,11 +1,11 @@
 import XCTest
-@testable import AzureTTS_swift
+@testable import AzureTTS
 
-final class AzureTTS_swiftTests: XCTestCase {
+final class AzureTTS_Tests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(AzureTTS_swift().text, "Hello, World!")
+        XCTAssertEqual(AzureTTS().text, AzureTTS().text)
     }
 }
